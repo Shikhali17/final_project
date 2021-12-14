@@ -5,3 +5,4 @@ pydeck
 matplotlip
 folium
 streamlit.folium
+matplotlib.pyplot
