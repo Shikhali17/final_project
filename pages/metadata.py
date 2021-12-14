@@ -12,7 +12,7 @@ import streamlit as st
 
 
 def app():
-    df = pd.read_csv('/Users/shikhalializada/PycharmProjects/pythonProject/Final_Project/bostoncrime2021_7000_sample.csv')
+    df = pd.read_csv('bostoncrime2021_7000_sample.csv')
     data_copy = df[(df.Lat != 0) & (df.Long != 0)]
     data_copy['OCCURRED_ON_DATE'] = pd.to_datetime(data_copy['OCCURRED_ON_DATE'])
     data_copy['DATE'] = data_copy['OCCURRED_ON_DATE'].dt.strftime('%d/%m/%Y')
