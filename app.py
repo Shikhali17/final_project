@@ -17,6 +17,12 @@ from pages import metadata, data_visualize, graph, home
 
 app = MultiPage()
 
+[theme]
+primaryColor = "E694FF"
+backgroundColor = "#023B6B"
+secondaryBackgroundColor = "0083B8"
+textColor = "#FFF"
+font = "monospace"
 
 display = Image.open('logo.png')
 display = np.array(display)
