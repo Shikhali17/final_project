@@ -18,7 +18,7 @@ from pages import metadata, data_visualize, graph, home
 app = MultiPage()
 
 
-display = Image.open('/Users/shikhalializada/PycharmProjects/pythonProject/Final_Project/logo.png')
+display = Image.open('logo.png')
 display = np.array(display)
 _, col1, col2, _,  = st.columns([0.5, 2, 2, 0.75])
 col1.image(display, width=260)
