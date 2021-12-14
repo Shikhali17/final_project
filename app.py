@@ -35,13 +35,5 @@ app.add_page("Mapping", data_visualize.app)
 app.add_page("Graphing", graph.app)
 
 
-hide_st_style = """
-                <style>
-                #MainMenu {visibility: hidden;}
-                footer {visibility: hidden;}
-                header {visibility: hidden;}
-                </style>
-                """
-st.markdown(hide_st_style, unsafe_allow_html=True)
 
 app.run()
