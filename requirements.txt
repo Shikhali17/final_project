@@ -1,0 +1,7 @@
+streamlit
+pandas
+datetime
+pydeck
+matplotlip
+folium
+streamlit.folium
