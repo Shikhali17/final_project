@@ -10,8 +10,8 @@ from datetime import date
 import pydeck as pdk
 
 def app():
-    df_district = pd.read_csv('/Users/shikhalializada/PycharmProjects/pythonProject/Final_Project/BostonPoliceDistricts.csv')
-    df = pd.read_csv('/Users/shikhalializada/PycharmProjects/pythonProject/Final_Project/bostoncrime2021_7000_sample.csv')
+    df_district = pd.read_csv('BostonPoliceDistricts.csv')
+    df = pd.read_csv('bostoncrime2021_7000_sample.csv')
     # list of the days of the week and months for pandas categorical sort
     day_of_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     months = ['January', 'February', 'March', 'April', 'May', 'June']
